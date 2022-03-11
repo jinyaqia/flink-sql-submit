@@ -12,6 +12,7 @@
 
     <modules>
         <module>sql-submit</module>
+        <module>example</module>
     </modules>
 
     <properties>

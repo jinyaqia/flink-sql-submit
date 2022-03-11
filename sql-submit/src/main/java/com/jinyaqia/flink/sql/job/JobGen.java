@@ -1,20 +1,18 @@
 package com.jinyaqia.flink.sql.job;
 
-import org.apache.flink.configuration.PipelineOptions;
-import org.apache.flink.table.api.ExplainDetail;
-
-import com.jinyaqia.flink.sql.core.utils.SqlUtils;
 import com.jinyaqia.flink.sql.parser.EnvSettingParser;
 import com.jinyaqia.flink.sql.parser.IParser;
 import com.jinyaqia.flink.sql.parser.InsertSqlParser;
 import com.jinyaqia.flink.sql.parser.OtherParser;
+import com.jinyaqia.flink.sql.utils.SqlUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.Arrays;
 import java.util.List;
 
-import static com.jinyaqia.flink.sql.core.utils.SqlUtils.SQL_DELIMITER;
+import static com.jinyaqia.flink.sql.utils.SqlUtils.SQL_DELIMITER;
+
 
 /**
  * @Author jinyaqia
